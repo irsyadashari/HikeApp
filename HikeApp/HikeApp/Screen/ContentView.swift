@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-      Image("image-1")
-            .resizable()
-            .scaledToFit()
-    }
+  var body: some View {
+    CardView()
+  }
 }
 
-#Preview {
+struct ContentView_Previews: PreviewProvider {
+  static var previews: some View {
     ContentView()
+  }
 }
